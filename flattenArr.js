@@ -15,3 +15,6 @@ function flattenArr(arr) {
    
   output = flattenArr([[2, [[3]]], 4, [[[5]]]])
    console.log(output); // --> [2, 3, 4, 5]
+
+   output = flattenArr([[2, [[3]]], 4, [[[5]]]],[[[[6]]]])
+   console.log(output); // --> [2, 3, 4, 5]
