@@ -7,3 +7,4 @@ function isOdd(num) {
 }
 
 console.log(isOdd(451));
+
